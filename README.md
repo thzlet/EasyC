@@ -16,7 +16,6 @@ It is designed for students and developers to **easily use lists, stacks, queues
 - General utility functions (swap, min/max, print array);
 
 ---
-
 ## 1. Installation
 
 Clone the repository and navigate to the project folder:
@@ -26,8 +25,7 @@ git clone https://github.com/thzlet/EasyC.git
 cd EasyC
 ```
 
-## 2. How to use
-
+## 2. How to Use
 Include the main header in your C files:
 ```bash
 #include "EasyC.h"
@@ -53,20 +51,22 @@ int main() {
 This example shows how to use the linked list and stack utilities from EasyC.
 
 ## 3. Compile and Run
-
 Compile the main example:
 ```bash
 make          # Compiles main.c and other source files
 ./main        # Run the main program
 ```
-
-Run tests: 
+Run tests:
 ```bash
 make test     # Compiles the test executable
 ./test        # Run the tests
 ```
-
 Clean compiled files:
 ```bash
 make clean    # Remove object files and executables
-``` 
+```
+
+### Contributing
+
+Feel free to fork the repository and contribute with new features or improvements.
+Please open an issue if you find bugs or want to suggest enhancements.
