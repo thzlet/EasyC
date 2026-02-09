@@ -7,44 +7,31 @@ It is designed for students and developers to **easily use lists, stacks, queues
 
 ## Features
 
-- Dynamic memory allocation helpers
-- Singly linked lists
-- Stacks
-- Queues
-- Binary search trees
-- File reading and writing
-- General utility functions (swap, min/max, print array)
+- Dynamic memory allocation helpers;
+- Singly linked lists;
+- Stacks;
+- Queues;
+- Binary search trees;
+- File reading and writing;
+- General utility functions (swap, min/max, print array);
 
 ---
 
-## Getting Started
+## 1. Installation
 
-### 1. Clone the repository
+Clone the repository and navigate to the project folder:
 
 ```bash
-git clone https://github.com/yourusername/EasyC.git
+git clone https://github.com/thzlet/EasyC.git
 cd EasyC
-
-2. Compile the main example
-make
-./main
-
-3. Run tests
-make test
-./test
-
-4. Clean compiled files
-make clean
 ```
 
-### 2. How to use
-```bash
+## 2. How to use
+
 Include the main header in your C files:
-
+```bash
 #include "EasyC.h"
-
-Example Usage
-#include "EasyC.h"
+#include <stdio.h>
 
 int main() {
     // Linked list example
@@ -63,7 +50,23 @@ int main() {
     return 0;
 }
 ```
-### Contributing
+This example shows how to use the linked list and stack utilities from EasyC.
 
-Feel free to fork the repository and contribute with new features or improvements.
-Please open an issue if you find bugs or want to suggest enhancements.
+## 3. Compile and Run
+
+Compile the main example:
+```bash
+make          # Compiles main.c and other source files
+./main        # Run the main program
+```
+
+Run tests: 
+```bash
+make test     # Compiles the test executable
+./test        # Run the tests
+```
+
+Clean compiled files:
+```bash
+make clean    # Remove object files and executables
+``` 
