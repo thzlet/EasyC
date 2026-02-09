@@ -22,7 +22,7 @@ It is designed for students and developers to **easily use lists, stacks, queues
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/EasyC.git
+git clone https://github.com/thzlet/EasyC.git
 cd EasyC
 
 2. Compile the main example
